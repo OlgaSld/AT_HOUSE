@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">AT HOUSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="header-logo logo link" href="./index.html">
+            <img src="./images/hero/2x/1x/Ресурс 1.png" alt=""
+          /></a>
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link current" href="#about">Про нас</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="#contacts">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item">
+              <a
+                class="address-link link"
+                href="mailto:secretar@atuatoys.kiev.ua"
+                >secretar@atuatoys.kiev.ua</a
+              >
+            </li>
+            <li class="address-item">
+              <a class="address-link link" href="tel:+380445812420"
+                >+380-44-581-24-20</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button type="button" data-menu-open class="menu-open-btn">
+          <svg class="menu-open-icon" width="32" height="22">
+            <use href="./images/sprite.svg#menu-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" data-menu-close class="menu-close-btn">
+            <svg class="menu-close-btn-icon" width="8" height="8">
+              <use href="./images/sprite.svg#modal-close"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link current" href="./index.html"
+                >Про нас</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Послуги</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="mob-menu-address">
+            <ul class="mob-menu-address-list list">
+              <li class="mob-menu-address-item">
+                <a class="mob-menu-tel-link link" href="tel:+380445812420"
+                  >+380-44-581-24-20</a
+                >
+              </li>
+              <li class="mob-menu-address-item">
+                <a
+                  class="mob-menu-address-link link"
+                  href="mailto:secretar@atuatoys.kiev.ua"
+                  >secretar@atuatoys.kiev.ua</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--Hero-->
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title visually-hidden">AT HOUSE - група компаній</h1>
+        </div>
+      </section>
+
+      <!-- Про нас -->
+      <section class="about">
+        <div class="container about-container">
+          <h2 id="about" class="about-title">Про нас</h2>
+          <p class="about-text">
+            <span class="about-name-office">AT HOUSE </span>- сучасний офісний центр, побудований в 2018. Знаходиться в
+            затишному місці в 10 хв. від м.Чернігівська, біля ТРЦ "Проспект".
+            Поруч знаходиться закрита парковка АШАН. Маємо власне футбольне
+            поле, яке також надаємо в оренду.
+          </p>
+        </div>
+      </section>
+
+      <!--Feutures-->
+      <section class="feutures">
+        <div class="container feutures-container">
+          <h2 class="feutures-title">Послуги</h2>
+              <p class="feutures-text">
+                Надаємо в оренду офісні приміщення з ремонтом, площею....</p>
+                <ul class="feutures-list">У вартість оренди входить:
+                  <li class="feutures-item">Оренда офісного приміщення</li>
+                  <li class="feutures-item">Цілодобова охорона</li>
+                  <li class="feutures-item">Прибирання території</li>
+                </ul>
+                <p class="feutures-text"> Здаємо напівпідвальні приміщення, а також офіси на 1, 3 та
+                4 поверхах. 
+              </p>
+          </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container gallery-container">
+        <h2 class="gallery-title">Галерея</h2>
+        <ul class="gallery-list">
+            <li class="gallery-item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/our-team/entrance.jpg,
+                      "
+                      media="(min-width:1200px)"
+                    />
+                  <img
+                    src="./images/our-team/entrance.jpg"
+                    alt="retina picture"
+                  />
+                  </picture>
+            </li>
+            <li class="gallery-item">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/our-team/at-house-3.jpg,
+                      "
+                      media="(min-width:1200px)"
+                    />
+                  <img
+                    src="./images/our-team/entrance.jpg"
+                    alt="retina picture" width="300", height="300"
+                  />
+                  </picture>
+            </li>
+
+        </ul>
+        </div>
+      </section>
+
+
+
+      <!--Customers-->
+      <section class="customers">
+        <div class="container customers-container">
+          <h2 id="partners" class="customers-title">Наші партнери</h2>
+          <!-- <ul class="customers-list list">
+            <li class="customers-list-item">
+              <a href="" class="customers-list-link">
+                <div class="customers-list-wrapper">
+                  <svg class="customers-list-icon" width="104" height="56">
+                    <use href="./images/sprite.svg#Logo1"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+          </ul> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container" id="contacts">
+          <a class="header-logo link" href="./index.html">
+            <img src="./images/hero/2x/1x/Ресурс 1.png" alt=""/></a>
+        <div class="footer-text-div">
+          <p class="footer-text">
+            Адреса: пров. Херсонський, 1В (пров.
+            Магнітогорський, 1В), м.Київ
+          </p>
+        </div>
+          <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.311235133604!2d30.63449987636933!3d50.45392877159279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4daadff3d2c31%3A0xc9fafd36117be54e!2z0JDQoiDQo9C60YDQotC-0LnRgQ!5e0!3m2!1suk!2sua!4v1686423645273!5m2!1suk!2sua" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+    </footer>
+
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

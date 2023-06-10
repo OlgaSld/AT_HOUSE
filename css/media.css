@@ -1,0 +1,260 @@
+
+/* ----------------------------------MEDIA (MIN-WIDTH:480px)------------------------------- */
+
+@media screen and (max-width: 767px) {
+
+.header-list, .address {
+    display: none;
+}
+
+.footer-container {
+    gap: 72px;
+}
+
+.footer-logo {
+    display: block;
+    text-align: center;
+}
+
+
+}
+
+/* ---------------------------MEDIA (MIN-WIDTH:768px)------------------- */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+.logo {
+    margin-right: 120px;
+}
+
+.mob-menu {
+    display: none;
+}
+
+.menu-open-btn {
+    display: none;
+}
+
+.header-container {
+    align-items: center;
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--background-dark);
+
+    position: relative;
+    display: block;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .link {
+    display: block;
+    transition: color var(--transition-dur-time);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--accent-color);
+}
+
+.link.current {
+    color: var(--accent-color);
+}
+
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
+    display: block;
+}
+
+
+.address-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--color-text-main);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-image: url(../images/hero/at-house.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../images/hero/at-house.jpg);    }
+}
+
+.feutures, .about {
+    padding-top: 82px;
+}
+
+.customers-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer-text-div {
+    margin-left: 200px;
+    margin-bottom: 72px;
+}
+
+.footer-form-div {
+    display: flex;
+    width: 453px;
+}
+
+.footer-text-title {
+    text-align: left;
+}
+
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1199px) {
+    .customers-container, .footer-container {
+        max-width: 552px;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+}
+/* ---------------------------MEDIA (MIN-WIDTH:1158px)------------------- */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+
+.logo {
+    margin-right: 76px;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+}
+
+.address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-text-main);
+
+    display: block;
+    margin-right: auto;
+    transition: color var(--transition-dur-time);
+}
+
+.address-item+.address-item {
+    margin-left: 40px;
+}
+
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px; 
+    max-width: 1440px;
+    background-image: url(../images/hero/at-house.jpg);
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../images/hero/at-house.jpg);    }
+}
+
+.feutures, .about {
+    padding-top: 90px;
+}
+
+.feutures-text {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--background-dark);
+}
+
+.feutures-text, .about-text {
+    font-weight: 400;
+}
+
+.feutures-item {
+    margin-bottom: 10px;
+}
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-list-item {
+    width: calc((100% - 120px) / 6);
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container {
+    width: calc((100% - 40px) / 2);
+}
+
+.footer-logo {
+    margin-right: o;
+}
+
+.footer-form-input {
+    width: 264px;
+    margin-bottom: 0;
+}
+
+}
